@@ -18,7 +18,8 @@ while(1)
         scanf("%d", &usernum);
 
         if( mynum == usernum){
-            printf("You're Right!");
+            printf("You're Right!\n");
+            break; //terminates while loop when user guesses correctly
         }else if(mynum > usernum) {
             printf("My number is greater than %d\n", usernum);
         }else {
