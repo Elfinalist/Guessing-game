@@ -12,7 +12,8 @@ int main()
 
     printf("I have a number in my mind. Can you guess it?\n");
 
-
+while(1)
+{
         printf("Enter your Guess:\n");
         scanf("%d", &usernum);
 
@@ -23,6 +24,6 @@ int main()
         }else {
             printf("My number is smaller than %d\n", usernum);
         }
-    
+}    
     return 0;
 }
