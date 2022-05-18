@@ -7,10 +7,15 @@ int main()
 {
 
     int mynum, usernum;
+    //implement random number generator
+    //initialize random num var
+    srand(time(NULL));
+    mynum = rand() % 10;
 
-    mynum = 6;
 
-    printf("I have a number in my mind. Can you guess it?\n");
+
+
+    printf("I have a number in my mind (0 - 9). Can you guess it?\n");
 
 while(1)
 {
