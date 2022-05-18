@@ -21,9 +21,9 @@ while(1)
             printf("You're Right!\n");
             break; //terminates while loop when user guesses correctly
         }else if(mynum > usernum) {
-            printf("My number is greater than %d\n", usernum);
+            printf("My number is greater than %d. Try Again\n\n", usernum);
         }else {
-            printf("My number is smaller than %d\n", usernum);
+            printf("My number is smaller than %d.Try Again\n\n", usernum);
         }
 }    
     return 0;
